@@ -1,0 +1,179 @@
+msgid "BlackCoderDocFoldersManagerTool"
+msgstr "BlackCoderDocFoldersManagerTool "
+
+msgid "Documents"
+msgstr "Documents"
+
+msgid "Document"
+msgstr "Document"
+
+msgid "Home Page"
+msgstr "Home Page"
+
+msgid "Document Managment System"
+msgstr "BlackCoderDocFoldersManagerTool "
+
+msgid "A system made for storing, editing, searching and downloading files"
+msgstr "A system made for storing, editing, searching and downloading files"
+
+msgid "By: Vishal Bhat, Software Engineer"
+msgstr "By: Vishal Bhat, Software Engineer"
+
+msgid "Edit and Download"
+msgstr "Edit and Download"
+
+msgid "Edit and view files and document data with just a few clicks. Using the action buttons you can easily delete or download any document."
+msgstr "Edit and view files and document data with just a few clicks. Using the action buttons you can easily delete or download any document."
+
+msgid "Keep Your Files Organized"
+msgstr "Keep Your Files Organized"
+
+msgid "Electronic document storage increases productivity and security, while reducing costs and human error. Using a BlackCoderDocFoldersManagerTool  can improve file accessibility and keeps everything nice and tidy."
+msgstr "Electronic document storage increases productivity and security, while reducing costs and human error. Using a BlackCoderDocFoldersManagerTool  can improve file accessibility and keeps everything nice and tidy."
+
+msgid "Search and Sort"
+msgstr "Search and Sort"
+
+msgid "Search through files to increase accessibility. Click any column to sort all documents by that paramater. You can sort both in ascending and descending order."
+msgstr "Search through files to increase accessibility. Click any column to sort all documents by that parameter. You can sort both in ascending and descending order."
+
+msgid "View Documents"
+msgstr "View Documents"
+
+msgid "Index"
+msgstr "Index"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Are you sure you want to delete this?"
+msgstr "Are you sure you want to delete this?"
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Create"
+msgstr "Create"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Return"
+msgstr "Return"
+
+msgid "Create New"
+msgstr "Create New"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Extension"
+msgstr "Extension"
+
+msgid "UserName"
+msgstr "User Name"
+
+msgid "User Name"
+msgstr "User Name"
+
+msgid "Category"
+msgstr "Category"
+
+msgid "DateUpload"
+msgstr "Date Upload"
+
+msgid "Date Upload"
+msgstr "Date Upload"
+
+msgid "DateCreated"
+msgstr "Date Created"
+
+msgid "Date Created"
+msgstr "Date Created"
+
+msgid "DateModified"
+msgstr "Date Modified"
+
+msgid "Date Modified"
+msgstr "Date Modified"
+
+msgid "Size"
+msgstr "Size"
+
+msgid "File"
+msgstr "File"
+
+msgid "FileType"
+msgstr "File Type"
+
+msgid "File Type"
+msgstr "File Type"
+
+msgid "FilePath"
+msgstr "File Path"
+
+msgid "File Path"
+msgstr "File Path"
+
+msgid "Management"
+msgstr "Management"
+
+msgid "Financial"
+msgstr "Financial"
+
+msgid "General"
+msgstr "General"
+
+msgid "Security"
+msgstr "Security"
+
+msgid "AuthorName"
+msgstr "Author Name"
+
+msgid "Author Name"
+msgstr "Author Name"
+
+msgid "SupervisorName"
+msgstr "Supervisor Name"
+
+msgid "Supervisor Name"
+msgstr "Supervisor Name"
+
+msgid "Level"
+msgstr "Level"
+
+msgid "Department"
+msgstr "Department"
+
+msgid "Faculty"
+msgstr "Faculty"
+
+msgid "PublicationDate"
+msgstr "Publication Date"
+
+msgid "Publication Date"
+msgstr "Publication Date"
+
+msgid "Folder"
+msgstr "Folder"
+
+msgid "Folders"
+msgstr "Folders"
+
+msgid "New Folder"
+msgstr "New Folder"
+
+msgid "New Document"
+msgstr "New Document"

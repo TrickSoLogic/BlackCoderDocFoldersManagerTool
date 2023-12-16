@@ -1,0 +1,73 @@
+@using Microsoft.AspNetCore.Mvc.Localization;
+@inject IViewLocalizer Localizer;
+
+@model IEnumerable<BlackCoderDocFoldersManagerTool.Models.Document>
+
+@{
+    ViewBag.title = Localizer["Index"];
+}
+
+<h1>@Localizer["Index"]</h1>
+
+<br>
+
+<form asp-controller="Documents" asp-action="Index" method="get" asp-controller="Documents">
+    <p>
+        <a asp-action="Create"><button type="button" class="btn btn-primary">@Localizer["New Document"]</button></a>
+        <input type="text" name="SearchString" value="@ViewBag.searchString"/>
+        <input type="submit" class="btn btn-primary" value="@Localizer["Search"]"/>
+    </p>
+</form>
+<table class="table sortable">
+    <thead>
+        <tr>
+            <th>
+                @Localizer[Html.DisplayNameFor(model => model.Name)]
+            </th>
+            <th>
+                @Localizer[Html.DisplayNameFor(model => model.Extension)]
+            </th>
+            <th>
+                @Localizer[Html.DisplayNameFor(model => model.DateCreated)]
+            </th>
+            <th>
+                @Localizer[Html.DisplayNameFor(model => model.DateModified)]
+            </th>
+            <th>
+                @Localizer[Html.DisplayNameFor(model => model.Size)]
+            </th>
+            <th>@Localizer["Actions"]</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Extension)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateCreated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateModified)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Size)
+            </td>
+            <td> 
+                <a asp-action="Edit" asp-route-id="@item.Id"><i class="fas fa-edit fa-lg" style="color:orange"></i></a>
+                <a asp-action="Delete" asp-route-id="@item.Id"><i class="fas fa-trash fa-lg" style="color:red"></i></a>
+                <a asp-action="Download" asp-route-id="@item.Id"><i class="fas fa-download fa-lg" style="color:green"></i></a>
+                <a asp-action="Details" asp-route-id="@item.Id"><i class="fas fa-info-circle fa-lg"></i></a> 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+<link href="https://cdn.jsdelivr.net/gh/tofsjonas/sortable/sortable.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable/sortable.min.js"></script>
