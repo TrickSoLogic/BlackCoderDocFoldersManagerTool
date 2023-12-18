@@ -17,5 +17,5 @@ namespace BlackCoderDocFoldersManagerTool.Models
         bool IsComposite();
 
         int ParentId {get; set;}
-    }
+    } 
 }

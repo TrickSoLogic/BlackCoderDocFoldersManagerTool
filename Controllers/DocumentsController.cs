@@ -21,7 +21,7 @@ namespace BlackCoderDocFoldersManagerTool.Controllers
             _localizer = localizer;
             _context = context;
         }
-
+         
         // GET: Documents
         public async Task<IActionResult> Index(string searchString)
         {

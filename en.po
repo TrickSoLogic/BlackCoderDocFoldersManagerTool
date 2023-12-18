@@ -40,7 +40,7 @@ msgstr "Search through files to increase accessibility. Click any column to sort
 msgid "View Documents"
 msgstr "View Documents"
 
-msgid "Index"
+msgid "Index"   
 msgstr "Index"
 
 msgid "Edit"

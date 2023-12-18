@@ -23,4 +23,4 @@ namespace BlackCoderDocFoldersManagerTool.Models
 
         public int ParentId {get; set;}
     }
-}
+} 

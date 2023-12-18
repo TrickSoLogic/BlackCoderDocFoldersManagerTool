@@ -26,7 +26,7 @@ msgid "Edit and view files and document data with just a few clicks. Using the a
 msgstr "Edit and view files and document data with just a few clicks. Using the action buttons you can easily delete or download any document."
 
 msgid "Keep Your Files Organized"
-msgstr "Keep Your Files Organized"
+msgstr "Keep Your Files Organized"   
 
 msgid "Electronic document storage increases productivity and security, while reducing costs and human error. Using a BlackCoderDocFoldersManagerTool  can improve file accessibility and keeps everything nice and tidy."
 msgstr "Electronic document storage increases productivity and security, while reducing costs and human error. Using a BlackCoderDocFoldersManagerTool  can improve file accessibility and keeps everything nice and tidy."

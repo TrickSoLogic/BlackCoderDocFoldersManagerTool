@@ -22,7 +22,7 @@ namespace BlackCoderDocFoldersManagerTool.Controllers
         }
 
         // GET: Folders
-        public async Task<IActionResult> Index(int id, string searchString)
+        public async Task<IActionResult> Index(int id, string searchString) 
         {
             ViewBag.currentID = id;
 

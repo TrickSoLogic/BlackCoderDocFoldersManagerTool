@@ -20,7 +20,7 @@
             enumerable: true,
             get: function () {
               return e[k];
-            }
+            } 
           });
         }
       });

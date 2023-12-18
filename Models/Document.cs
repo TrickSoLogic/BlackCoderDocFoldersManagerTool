@@ -35,7 +35,7 @@ namespace BlackCoderDocFoldersManagerTool.Models
         public Level Level { get; set; }
 
         public Department Department { get; set; }
-
+           
         public Faculty Faculty { get; set; }
         
         [DataType(DataType.DateTime)]

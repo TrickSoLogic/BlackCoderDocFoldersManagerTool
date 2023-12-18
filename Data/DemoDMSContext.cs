@@ -15,4 +15,4 @@ namespace BlackCoderDocFoldersManagerTool.Data
 
         public DbSet<Document> Document { get; set; }
     }
-}
+}   

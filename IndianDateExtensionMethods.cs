@@ -29,7 +29,7 @@ namespace System
                 formatInfo.AMDesignator = "AM";
                 formatInfo.PMDesignator = "PM";
 
-                formatInfo.ShortDatePattern = "MM/dd/yyyy";
+                formatInfo.ShortDatePattern = "MM/dd/yyyy";   
                 formatInfo.LongDatePattern = "dddd, MMMM dd, yyyy";
 
                 formatInfo.ShortTimePattern = "HH:mm:ss";
